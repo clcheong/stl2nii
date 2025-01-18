@@ -3,3 +3,7 @@ stl2niitest.py
 __init__.py
 __pycache__/
 *.egg-info/
+*.stl
+heartVenv/
+bash_utils/
+*.nii.gz

@@ -52,3 +52,14 @@ docker container run --rm \
 ```
 
 It is very important that you mount the reference file inside the docker container in a folder named '`/ref`', and the `.stl` files in a folder named '`/stl`', otherwise the code will fail. How you name the reference file inside the docker container is irrelevant (I've named it `miau.nii.gz`). The output `nifti` files will be available in the host at `/path/to/stls/nii/`.
+
+
+## GPT Implementation
+pip install scipy
+pip install "pyglet<2"
+pip install trimesh
+pip install numpy
+pip install SimpleITK
+pip install nibabel
+
+python gpt-stl2nii.py
